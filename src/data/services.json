@@ -1,0 +1,59 @@
+{
+  "categories": [
+    
+    "Gold",
+    "Silver",
+    
+    "Services"
+  ],
+  "items": [
+    {
+      "id": "s1",
+      "title": "24K Gold Jewellery",
+      "desc": "Necklaces, bangles, rings & more.",
+      "category": "Gold"
+    },
+    {
+      "id": "s2",
+      "title": "22K Gold Jewellery",
+      "desc": "Modern lightweight designs.",
+      "category": "Gold"
+    },
+    {
+      "id": "s3",
+      "title": "Silver Jewellery",
+      "desc": "Traditional & daily-wear silver.",
+      "category": "Silver"
+    },
+    {
+      "id": "s4",
+      "title": "Diamond Jewellery",
+      "desc": "Bridal & premium diamond pieces.",
+      "category": "Diamond"
+    },
+    {
+      "id": "s5",
+      "title": "Custom Orders",
+      "desc": "Made-to-order designs as per your choice.",
+      "category": "Services"
+    },
+    {
+      "id": "s6",
+      "title": "Polishing & Repair",
+      "desc": "Professional care for your jewellery.",
+      "category": "Services"
+    },
+    {
+      "id": "s7",
+      "title": "Purity Check",
+      "desc": "Transparent purity verification.",
+      "category": "Services"
+    },
+    {
+      "id": "s8",
+      "title": "Exchange & Buyback",
+      "desc": "Fair value exchange guidance.",
+      "category": "Services"
+    }
+  ]
+}

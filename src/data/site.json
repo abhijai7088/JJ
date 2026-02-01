@@ -1,0 +1,25 @@
+{
+  "shopName": "Jaiswal Jewellers",
+  "tagline": "Crafted Elegance. Trusted Forever — Since 1995",
+  "phoneNumber": "+91-9648909039",
+  "whatsappNumber": "+91-9648909039",
+  "address": "Jaiswal Jewellers, Lumbini Road, Birdpur, Siddharth Nagar, Uttar Pradesh",
+  "googleMapsLink": "https://www.google.com/maps/place/Jaiswal+jewellers/@27.3747756,83.1121865,17z/data=!3m1!4b1!4m6!3m5!1s0x3996c326ccf480e1:0x3eda3e89e07c3d83!8m2!3d27.3747756!4d83.1147614!16s%2Fg%2F11swhcch6g?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoASAFQAw%3D%3D",
+  "timings": "Mon–Sat: 10:00 AM – 8:00 PM | Sun: 11:00 AM – 6:00 PM",
+  "lat": 27.3747756,
+  "lng": 83.1147614,
+  "socials": {
+    "instagram": "https://www.instagram.com/jaiswal_jewellers16?utm_source=qr&igsh=MXR5NmtmeXA4bHRhMg%3D%3D",
+    "facebook": "https://www.facebook.com/profile.php?id=100095197604581&rdid=iSUnjhfVgpuXAJr1&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19GCBzXnTR%2F#",
+    "youtube": "https://youtube.com/",
+    "googleBusiness": "https://www.google.com/search?q=Jaiswal+Jewellers"
+  },
+  "about": [
+    "Welcome to Jaiswal Jewellers — where tradition meets modern elegance.",
+    "Since 1995, we’ve been trusted for purity, transparent pricing, and exquisite craftsmanship.",
+    "Explore 24K & 22K gold jewellery, silver collections, and contemporary designs crafted for every occasion.",
+    "Your trust is our pride. We’re committed to quality, authenticity, and warm service — always."
+  ],
+  "backgroundVideo": "/bg.mp4",
+  "heroNote": "Hallmarked Gold • Diamond • Silver • Bridal Jewellery"
+}

@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body { height: 100%; }
+body{ background:#050507; }
+*{ -webkit-tap-highlight-color: transparent; }
+
+@layer utilities {
+  .glass {
+    @apply border border-white/10 bg-white/[0.05] backdrop-blur-xl;
+  }
+  .soft-divider {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent);
+    height: 1px;
+  }
+  .hero-bleed {
+    /* makes hero span edge-to-edge inside a padded max-width wrapper */
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+  }
+}
+
+/* Slow gold shimmer */
+@keyframes goldShimmer {
+  0% { transform: translateX(-120%) skewX(-18deg); opacity: 0; }
+  10% { opacity: 0.65; }
+  50% { opacity: 0.75; }
+  90% { opacity: 0.65; }
+  100% { transform: translateX(120%) skewX(-18deg); opacity: 0; }
+}
+.shimmer-wrap{ position: relative; overflow: hidden; }
+.shimmer-wrap::after{
+  content:"";
+  position:absolute;
+  inset:-30%;
+  background: linear-gradient(90deg, transparent 0%, rgba(245,158,11,0.0) 35%, rgba(245,158,11,0.55) 50%, rgba(245,158,11,0.0) 65%, transparent 100%);
+  animation: goldShimmer 5.5s ease-in-out infinite;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+/* Make background video look more premium (subtle) */
+.hero-video{
+  filter: contrast(1.08) saturate(1.08) brightness(0.98);
+  transform: scale(1.02);
+}

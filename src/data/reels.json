@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "r1",
+      "title": "New Arrivals Reel",
+      "video": "/reels/Instagram.mp4"
+    },
+    {
+      "id": "r2",
+      "title": "Information Reel",
+      "video": "/reels/Instagram_2.mp4"
+    },
+    {
+      "id": "r3",
+      "title": "Bridal Collection Reel",
+      "video": "/reels/Instagram_3.mp4"
+    },
+    {
+      "id": "r4",
+      "title": "Wedding Special Reel",
+      "video": "/reels/Instagram_4.mp4"
+    }
+  ]
+}
